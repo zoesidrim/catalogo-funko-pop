@@ -20,18 +20,18 @@
             <div class="categorias__menu">
                 <h2 class="categorias__texto">Categorias</h2>
                 <ul class="categorias__lista">
-                    <li>Harry Potter</li>
-                    <li>Naruto</li>
-                    <li>Friends</li>
-                    <li>Game of Thrones</li>
-                    <li>Supernatural</li>
-                    <li>The Walking Dead</li>
-                    <li>Filmes</li>
-                    <li>Séries</li>
+                    <li data-target="harry-potter">Harry Potter</li>
+                    <li data-target="naruto">Naruto</li>
+                    <li data-target="friends">Friends</li>
+                    <li data-target="game-of-thrones">Game of Thrones</li>
+                    <li data-target="supernatural">Supernatural</li>
+                    <li data-target="the-walking-dead">The Walking Dead</li>
+                    <li data-target="filmes">Filmes</li>
+                    <li data-target="series">Séries</li>
                 </ul>
             </div>
 
-            <section class="container__card">
+            <section class="container__card" id="harry-potter">
                 <h2 class="card__categoria">Harry Potter</h2>
                 <div class="swiper">         
                     <div class="swiper-wrapper">
@@ -148,7 +148,7 @@
                 </div>           
             </section>
 
-            <section class="container__card">
+            <section class="container__card" id="naruto">
                 <h2 class="card__categoria">Naruto</h2>
                 <div class="swiper">    
                     <div class="swiper-wrapper">    
@@ -193,7 +193,7 @@
                 </div>    
             </section>
 
-            <section class="container__card">
+            <section class="container__card" id="friends">
                 <h2 class="card__categoria">Friends</h2>
                 <div class="swiper">         
                     <div class="swiper-wrapper">
@@ -255,7 +255,7 @@
                 </div>
             </section>
         
-            <section class="container__card">
+            <section class="container__card" id="game-of-thrones">
                 <h2 class="card__categoria">Game of Thrones</h2>
                 <div class="swiper">         
                     <div class="swiper-wrapper">
@@ -308,7 +308,7 @@
                 </div>
             </section>
 
-            <section class="container__card">
+            <section class="container__card" id="supernatural">
                 <h2 class="card__categoria">Supernatural</h2>
                 <div class="swiper">          
                     <div class="swiper-wrapper"> 
@@ -345,7 +345,7 @@
                 </div>
             </section>
 
-            <section class="container__card">
+            <section class="container__card" id="the-walking-dead">
                 <h2 class="card__categoria">The Walking Dead</h2>
                 <div class="swiper">        
                     <div class="swiper-wrapper">       
@@ -382,7 +382,7 @@
                 </div>            
             </section>
             
-            <section class="container__card">
+            <section class="container__card" id="series">
                 <h2 class="card__categoria">Séries</h2>
                 <div class="swiper">
                     <div class="swiper-wrapper">
@@ -435,7 +435,7 @@
                 </div>
             </section>
 
-            <section class="container__card">
+            <section class="container__card" id="filmes">
                 <h2 class="card__categoria">Filmes</h2>
                 <div class="swiper">          
                     <div class="swiper-wrapper">
@@ -482,7 +482,8 @@
             
         </main>
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-        <script>
+        <script src="script.js"></script>
+        <!-- <script>
             const swiper = new Swiper('.swiper', {
                 slidesPerView: 1, // Padrão: dispositivos móveis mostram 1 slide
                 breakpoints: {
@@ -499,6 +500,6 @@
             //         el: '.swiper-pagination',
             //         type: 'bullets',
             //     },
-        </script>
+        </script> -->
     </body>
 </html>
