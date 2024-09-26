@@ -19,8 +19,9 @@ body{
 }
 
 .container__inicial {
-    background-image: url("./assets/StockSnap_B4AXMRDPNL.jpg");
+    background-image: url("./assets/pawel-czerwinski-g0eRErPBoTA-unsplash.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -39,9 +40,9 @@ body{
     padding: 30px;
 }
 
-.container__inicial strong {
+/* .container__inicial strong {
     color: var(--cor-fundo);
-}
+} */
 
 .categorias__menu{
     background-color: var(--cor-fundo);
@@ -96,6 +97,7 @@ body{
     padding: 2rem;
     color: var(--cor-fundo);
     min-width: 250px;
+    white-space: nowrap;
 }
 
 .card__img{

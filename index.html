@@ -480,36 +480,8 @@
         </main>
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script>
-            // const swiper = new Swiper('.swiper', {
-            //     slidesPerView: 1,
-            //     spaceBetween: 10,
-            //     // pagination: {
-            //     // el: '.swiper-pagination',
-            //     //  type: 'bullets',
-            //     // },
-            //      // using "ratio" endpoints
-            //     breakpoints: {
-            //         '@0.75': {
-            //         slidesPerView: 2,
-            //         spaceBetween: 20,
-            //         },
-            //         '@1.00': {
-            //         slidesPerView: 3,
-            //         spaceBetween: 40,
-            //         },
-            //         // '@1.50': {
-            //         // slidesPerView: 3,
-            //         // spaceBetween: 50,
-            //         // },
-            //     }
-            // });
-
             const swiper = new Swiper('.swiper', {
                 slidesPerView: 1, // Padrão: dispositivos móveis mostram 1 slide
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                },
                 breakpoints: {
                     640: { // Quando a tela é maior que 640px
                     slidesPerView: 2,
@@ -519,6 +491,11 @@
                     }
                 }
             });
+
+            // pagination: {
+            //         el: '.swiper-pagination',
+            //         type: 'bullets',
+            //     },
         </script>
     </body>
 </html>
