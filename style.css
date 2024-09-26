@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap');
 
-/* #3A6D8C */
-/* #EAD8B1 */
-
 * {
     margin: 0;
     padding: 0;
@@ -62,10 +59,10 @@ body{
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     font-size: 1.5rem;
     color: var(--cor-texto);
-    padding-bottom: 1rem;
+    padding: 1rem 3rem;
 }
 
 .swiper {
