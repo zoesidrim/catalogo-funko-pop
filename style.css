@@ -7,6 +7,7 @@
 
 :root {
     --font-principal: "Roboto Condensed", sans-serif;
+    --font-secundaria: "Indie Flower", cursive;
     --cor-fundo: #001F3F;   
     --cor-texto: #EAD8B1;
 }
@@ -30,11 +31,13 @@ body{
 }
 
 .container__inicial h1 {
-    font-size: 4rem;
-}
+    font-family: var(--font-secundaria);
+    font-size: 5rem;
+    padding: 1rem;
+}    
 
 .container__inicial p {
-    padding: 30px;
+    padding: 1rem;
 }
 
 /* .container__inicial strong {
